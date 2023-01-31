@@ -21,6 +21,7 @@ function App() {
       <BrowserRouter>
         {/* <Navbar /> */}
         {/* <NavbarOtherInsurance/> */}
+        {/* <Travelinsurance />  */}
         <Routes>
           {/* Datta ghadage */}
           <Route path='/' element={<Home />}></Route>
@@ -34,9 +35,19 @@ function App() {
           <Route exact path='/cyberinsurance' element={<CyberInsurance/>}></Route>
           {/* Sayli */}
       
-      
+      {/* prachita */}
+         <Route path='/fmultitrip' element={<FormMultiTrip />} ></Route>
+          <Route path='/fsingletrip' element={<FormSingleTrip />} ></Route>
+          <Route path='/fextendpolicy' element={<FormExtendPolicy />} ></Route>
+
         </Routes>
       </BrowserRouter>
+
+      
+     {/* studenttravel page prachita */}
+      <StudentTravel/>
+
+
     </div>
   );
 }
