@@ -14,6 +14,13 @@ import CyberInsurance from './OtherInsurance/CyberInsurance';
 import NRIInsurance from './OtherInsurance/NRIInsurance';
 import NavbarOtherInsurance from './OtherInsurance/NavbarOtherInsurance';
 
+//prachita
+//import Travelinsurance from "./Travel_Insurance/Travelinsurance";
+// import FormMultiTrip from "./Travel_Insurance/FormMultiTrip";s
+// import FormSingleTrip from "./Travel_Insurance/FormSingleTrip"
+// import FormExtendPolicy from "./Travel_Insurance/FormExtendPolicy";
+import StudentTravel from "./Travel_Insurance/studenttravel/StudentTravel";
+
 
 function App() {
   return (
