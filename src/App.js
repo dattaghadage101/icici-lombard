@@ -33,10 +33,16 @@ function App() {
           <Route exact path='/nriinsurance' element={<NRIInsurance/>}></Route>
           <Route exact path='/cyberinsurance' element={<CyberInsurance/>}></Route>
           {/* Sayli */}
-      
-      
+
+          {/* prachita */}
+         <Route path='/fmultitrip' element={<FormMultiTrip />} ></Route>
+          <Route path='/fsingletrip' element={<FormSingleTrip />} ></Route>
+          <Route path='/fextendpolicy' element={<FormExtendPolicy />} ></Route>
+  
         </Routes>
       </BrowserRouter>
+{/* studenttravel page prachita */}v
+      <StudentTravel/>
     </div>
   );
 }
