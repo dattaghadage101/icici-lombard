@@ -1,0 +1,50 @@
+.top-form h2 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 100 !important;
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.top-form p {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100 !important;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+.table-side-image{
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    top: 40px;
+}
+.top-main-form {
+    margin-top: 75px !important;
+    background-color: #00305A;
+    height: auto;
+}
+
+@media screen and (max-width: 990px) {
+    .top-main-form {
+        margin-top: 0px !important;
+
+    }
+    .top-form{
+        padding-top: 90px;
+    }
+}
+
+.top-form img {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}

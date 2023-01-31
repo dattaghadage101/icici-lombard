@@ -1,0 +1,31 @@
+.marin-single-top{
+    margin-top: 30px;
+    background-color: #00305A;
+    color: white;
+}
+.marin-image {
+margin-top: 90px;
+}
+.marin-image image{
+    margin-top: 70px !important;
+}
+.marin-image .para{
+    margin-bottom: 100px;
+    font-style:'Mulish', sans-serif;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+}
+.marin-image h1{
+    font-style:'Mulish', sans-serif;
+    font-weight: 500 !important;
+    font-size: 3.5rem !important;
+
+}
+.form-label{
+font-size: 1.5rem;
+}
+
+.error_msg{
+    color: red !important;
+    font-size: medium;
+}

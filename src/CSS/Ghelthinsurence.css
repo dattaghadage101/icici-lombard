@@ -1,0 +1,39 @@
+.main-helth-insurence{
+    margin-top: 30px;
+    background-color: #00305A;
+    color: white;
+}
+
+.Ghelthinsufields .form-control{
+    line-height: 30px;
+    margin-top: 30px;
+
+}
+.Ghelthinsufields .form-label{
+    font-size: 1.5rem;
+}
+.Ghelthinsufields,input[type="radio"],input[type="checkbox"],.form-check-label,input{
+    font-size: 1.5rem !important;
+    margin-top: 20px;
+}
+.coresoul-back-image{
+    background: url('../images/GHI_Banner_New.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100% !important;
+    width: 100%;
+}
+.coresoul-word{
+position: relative;
+top: 80px;
+left: 250px;
+}
+.coresoul-word h1{
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+.coresoul-word p{
+    font-size: 2rem;
+}

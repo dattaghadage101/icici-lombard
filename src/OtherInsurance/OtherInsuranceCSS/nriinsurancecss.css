@@ -1,0 +1,174 @@
+
+.nrimainbgimg{
+    content: '';
+    min-height: 60vh;
+    /* width:100%; */
+    background-image: url('../../images/nri_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.firsttext{
+    color:midnightblue;
+   float: right;
+   position:relative;
+}
+.secondtext{
+    margin-top: 331px;
+    background-color: rgba(146, 35, 35, 0.774);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
+    font-weight: 400;
+    position:relative;
+}
+.icicinri{
+    margin-left: 8%;
+   margin-top: 1%;
+ 
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* bg-images */
+.col-nri_block1img{
+    min-height: 70vh;
+    min-width:80vh;
+    display:inline-block;
+    /* justify-content: center;
+    align-items:center; */
+    position: relative;
+}
+.col-nri_block1img::before{
+    content: '';
+    background-image: url('../../images/nri_block1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+    top:0;
+    left:11px;
+    bottom: 0;
+    right: 13px;
+}
+.travel{
+    margin-top: 40%;
+    color:white;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(19, 17, 17, 0.6);
+    background-size: cover;
+}
+
+.col-nri_block2img{
+    min-height: 70vh;
+    min-width: 80vh;
+    display: inline-block;
+    /* justify-content: center;
+    align-items:center; */
+    position: relative;
+    
+}
+.col-nri_block2img::before{
+    content: '';
+    background-image: url('../../images/nri_block2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+    top:0;
+    left:11px;
+    bottom: 0;
+    right: 13px;
+    
+}
+.health{
+    margin-top: 40%;
+    color:white;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(19, 17, 17, 0.6);
+    background-size: cover;
+   /* padding:0 240px 1px 240px; */
+   
+}
+
+/* car ins */
+.col-nri_car_insurance{
+    min-height: 70vh;
+    min-width: 80vh;
+    display: inline-block;
+    /* justify-content: center;
+    align-items:center; */
+    position: relative;
+}
+.col-nri_car_insurance::before{
+    content: '';
+    background-image: url('../../images/nri_car_insurance.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+    top:0;
+    left:11px;
+    bottom: 0;
+    right: 13px;
+}
+
+.car{
+    margin-top: 40%;
+    color:white;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(19, 17, 17, 0.6);
+    background-size: cover;
+}
+.col-nri_home_insurance{
+    min-height: 70vh;
+    min-width: 80vh;
+    display: inline-block;
+    /* justify-content: center;
+    align-items:center; */
+    position: relative;
+}
+.col-nri_home_insurance::before{
+    content: '';
+    background-image: url('../../images/nri_home_insurance.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+    top:0;
+    left:11px;
+    bottom: 0;
+    right: 13px;
+}
+.home{
+    margin-top: 40%;
+    color:white;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(19, 17, 17, 0.6);
+    background-size: cover;
+}
+.text{
+    /* border: 1px solid black; */
+    background-color: rgb(209,207,187);
+    margin-right: 21px;
+    width: 31.45%;
+    
+}
+
+.bottomtxt{
+    margin-top: 70%;
+}
+
+.bottomnavlink{
+    text-decoration: none;
+    color:darkred;
+}
+.bottomnavlink:hover{
+    color:darkred;
+}

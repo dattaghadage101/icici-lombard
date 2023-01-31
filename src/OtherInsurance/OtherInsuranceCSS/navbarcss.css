@@ -1,0 +1,202 @@
+ /* .container-fluid{ 
+    background-color: rgb(220,115,34);
+    background-color: rgb(217,107,32);
+    background-color: rgb(213,100,30);
+    background-color: rgb(194,61,18,1);
+   line-height: 20px; 
+} 
+
+/* .nav{
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+} */
+
+.othernav{
+   background-image: linear-gradient(rgb(220,115,34),rgb(194,61,18,1));
+   height: 60px;
+   margin-top: 10px;
+   padding-bottom:0;
+
+}
+
+.navbarfont{
+    text-align: center;
+    font-size: 18px;
+    color:white;  
+    margin-left: 35px;
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    margin-left: 70px;
+}
+ 
+.navbar-navcrop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 105px;
+}
+
+.right_arrow{
+    /* height: 6%; */
+    width: 1.2rem;
+    top: 31rem;
+    position: fixed;
+    background-color: rgb(240, 140, 47);
+    color: white;
+}
+.chat_bot_icon_1{
+    position:fixed;
+    bottom:1.7rem;
+    right: 1.7rem;
+}
+
+/* .dropdown-menu{ 
+    
+    width: 800px !important;
+    height: 300px !important;
+    border-radius: 0;
+   
+} */
+/* .dropdown-menu ul,li,a:hover{
+    background-color: blue;
+} */
+/* .fixed_arrow{
+    /* position: -webkit-sticky; */
+    /* position: sticky;
+    left: 0;
+    background-color: rgb(194,61,18,1);
+    width: 20px;
+}  */
+
+/* arrow_transform1 Products*/
+ /* .arrow_transform1{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 2px double #202020;
+    border-right: 2px double #202020;
+    left: 127.5px;
+    top:20px;
+    transform: rotate(135deg); 
+ } 
+ .arrow_transform1:hover{
+   border-top: 2px double white;
+    border-right: 2px double white;
+}  */
+
+/* arrow_transform2 Claims*/
+/* .arrow_transform2{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 2px double #202020;
+    border-right: 2px double #202020;
+    left: 112.5px;
+    top:20px;
+    transform: rotate(135deg); 
+    
+ } 
+.arrow_transform2:hover {
+    border-top: 2px double goldenrod;
+    border-right: 2px double goldenrod;
+}  */
+
+/* arrow_transform3 Renewals*/
+/* .arrow_transform3{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 2px double #202020;
+    border-right: 2px double #202020;
+    left: 131.5px;
+    top:20px;
+    transform: rotate(135deg); 
+   
+ } 
+.arrow_transform3:hover {
+    border-top: 2px double goldenrod;
+    border-right: 2px double goldenrod;
+}  */
+
+/* arrow_transform4 Support*/
+/* .arrow_transform4{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 2px double #202020;
+    border-right: 2px double #202020;
+    left: 122.5px;
+    top:20px;
+    transform: rotate(135deg); 
+    
+ } 
+.arrow_transform4:hover {
+    border-top: 2px double goldenrod;
+    border-right: 2px double goldenrod;
+}  */
+
+/* arrow_transform5 Info Centre*/
+/* .arrow_transform5{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 2px double #202020;
+    border-right: 2px double #202020;
+    left: 145.5px;
+    top:20px;
+    transform: rotate(135deg); 
+   
+ } 
+.arrow_transform5:hover {
+    border-top: 2px double goldenrod;
+    border-right: 2px double goldenrod;
+}  */
+
+/* arrow_transform6 Investor Relations*/
+/* .arrow_transform6{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 2px double #202020;
+    border-right: 2px double #202020;
+    left: 196.5px;
+    top:20px;
+    transform: rotate(135deg); 
+    
+ } 
+ .arrow_transform6:hover {
+    border-top: 2px double goldenrod;
+    border-right: 2px double goldenrod;
+}  */
+/* .text_on_image{
+    margin-bottom: 50px;
+} */
+
+
+
+.generalarrow{
+    /* position: absolute; */
+    height: 10px;
+    width: 10px;
+    border-top: 2px double #202020;
+    border-right: 2px double #202020;
+    left: 27.5px;
+    top: 35px;
+    transform: rotate(45deg); 
+    display: inline-block;
+    /* transition: cubic-bezier(1, 0, 0, 1); */
+    /* float:right; */
+}
+ .dropdown-item.active{
+    text-decoration:none;
+    color:black;
+    background-color:white;
+
+}
+/* .dropdown-item.active:hover{
+    color:white;
+    background-color:rgb(10,7,168);
+} */

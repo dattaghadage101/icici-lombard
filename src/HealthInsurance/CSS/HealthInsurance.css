@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-size: normal;
+    font-family: 'Muli'; 
+}
+/* ////////////////////firstPage////////////////////////////////////////// */
+.firstmainpage{
+    width:100%;
+    /* height: 44vw; */
+    background-color: #00305A;
+    color: rgb(255, 255, 255);
+   
+}
+/* .container{
+    border: 1px solid rgb(17, 178, 25);
+} */
+.firstrow{
+    /* border: 2px solid red; */
+    margin-left: 6.5rem;
+    
+}
+ .firstrow h4{
+    font-weight: 500px;
+    font-size:35px;
+    /* border: 2px solid rgb(20, 228, 41); */
+    line-height: 1.33rem;
+
+}
+.firstrow h4 span{
+    line-height: 57.19px;
+    font-size:43px;
+}
+.firstrow ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid rgb(131, 51, 236); */
+}
+.firstrow ul li{
+    list-style-type: none;
+    font-weight: 400px;
+    font-size:15px; 
+    /* border: 2px solid red;  */
+    margin-right: 0.8rem;
+  
+}  
+
+.firstrow ul .smallline::after{
+    content: "|";
+    margin-left: 0.5rem;
+    color: #004A80;
+
+}
+.firstrow ul .smaillline1{
+    margin-left: -30px;
+}
+
+/* *********************************************************FirstPageOne*********************************************** */
+
+ .firstPageone .firstPageonediv{
+    /* border: 2px solid green; */
+ }
+
+ .firstPageone .firstPageonediv button .titlemain{
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .firstPageone .firstPageonediv button .undertitle{
+    font-size: 13px;
+    font-weight: 400;
+ }
+ .firstPageone .firstPageonediv button{
+    background-color: white;
+ }
+ .firstbox{
+    border-radius: 20px;
+    margin: 1rem;
+ }
+ .firstbox input{
+    border: none !important;
+ }
+ .firstbox button{
+    border: none !important;
+    background-color: #f09090;
+    padding-left: 5px;
+ }
+ .firstbox button[disabled]{
+        background-color: #ee1616;
+ }
+ .mainbtn{
+    border: 2px solid #D35700;
+    background-color: #D35700 !important;
+    color: white;
+ }
+ .firstsecondrow #standard-textarea{
+        color:#C4C3C3;
+        width: 15rem !important
+ }
+ .firstthirdrow{
+    background-color: #00305B;
+    border-radius: 10px;
+    border: 1px solid #00305B !important;
+ }
+ .firstthirdrow h3, .firstthirdrow img{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem 0rem 1rem 1rem;
+    color: white;
+ }
+ .firstthirdrow li{
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    line-height: 17.52px;
+    color: white;
+ }
+ .firstlast{
+    font-size: 13px ;
+    color: rgb(128, 151, 172);
+    font-weight: 500;
+ }
+ .firstlast checkbox{
+    background: #D35700;
+    size: 2rem;
+ }
+ .firstlast input[type="checkbox"]{
+    accent-color: #D35700;
+ }
+ .firstPageone .active{
+      border: none !important;
+ }
+ .firstPageone .active{
+    background: white !important;
+    border-bottom: 5px solid #D35700 !important;
+    
+ }
+#myTab li .mybtn{
+    padding: 1px 29px 15px 15px;
+}
+#myTab li .mybtn2{
+    padding: 1px 21px 30px 15px;
+}
+.simplemodal .modalmainbtn{
+   /* background-color: #D35700 !important;  */
+   border: none !important;
+   height: 15px !important;
+   width: 10px !important;
+ margin-right: 10px !important;
+}
+#staticBackdrop .btn3{
+    background-color: #D35700 !important; 
+    border: 2px solid #D35700 !important;
+    height: 4rem ;
+    width: 17rem !important;
+    color: #E2FCE9;
+
+}
+#staticBackdrop .btn4{
+    border: none !important;
+    padding: 2rem 1rem !important;
+    border-bottom: 1px solid #EC6608 !important;
+    color: #D35700 !important;
+}
+ /* *********************************secondpage******************************************************** */
+ .second{
+   
+ font-weight: 300;
+ }
+ .second h1{
+    font-size: 35px;
+    font-weight: 700;
+ }
+ .secondpagelist{
+    /* border: 3px solid red; */
+    margin: 1.8rem 5px 1rem 4rem;
+ }
+
+ .secondpagelist li{
+    /* border: 3px solid rgb(86, 85, 85); */
+    list-style-type: none;
+    text-align: center;
+ }
+ .secondpagelist li h4{
+    font-size: 30px;
+    color: #F26624;
+ 
+ }
+
+ .smallcard{
+    margin: 1.8rem 5px 1rem 4rem;
+
+ }
+ .smallcard h1{
+    color: rgb(40, 40, 40) !important;
+ }
+ .second li p span{
+    /* border: 2px solid red; */
+    margin: 5px;
+ }
+
+ 
+
+ /* *************************************************thirdPage*************************** */
+.fullcolorpage{
+    background: #F8F6F6;
+}
+ .carddata{
+    /* border: 5px solid red; */
+    text-align: center;
+    margin-top: 3rem;
+    padding: 3rem;
+ }
+ .carddata h1{
+    font-size: 35px;
+    font-weight:700 ;
+ }
+ .innersmallcard{
+    /* border: 3px solid greenyellow; */
+    margin: 1rem 0rem 2rem 0rem;
+ }
+ .innersmallcard span{
+    font-size: 45px;
+    font-weight: 400px;
+    color:#F3814C
+ }
+ .innersmallcard h5{
+    font-size: 17px;
+    font-weight: 600px;
+    /* border: 3px solid green; */
+    padding-left: 2rem;
+    padding-top:1rem
+ }
+ .card-text{
+    text-align: left;
+    /* border: 3px solid red; */
+    padding-left: 3.5rem;
+ }
+
+ /* *****************************************************************FoutyhPage************************************ */
+ .fourth{
+    /* border: 3px solid red; */
+    text-align: center;
+    
+ }
+
+ .cards h6{
+    font-weight: 600;
+    font-size: 17px;
+    display: inline;
+ }
+ .cards .innercard3 .link{
+    font-weight: 700;
+    font-size: 12px;
+    /* border: 2px solid red; */
+    padding: 0.3rem;
+ }
+ .cards .innercard3 .link1{
+    background-color: #E2FCE9;
+    color: #097572
+ }
+ .cards .innercard3 .link2{
+    background-color: #FFF6EA;
+    color:#D35700
+ }
+ .cards .innercard3 .link3{
+    background-color: #FFF6EA;
+    color:#D35700
+ }
+ .cards .col-4{
+    /* border: 2px solid yellow; */
+    padding: 1rem;
+ }
+ .innercard3{
+    padding-bottom: 10px;
+ }
+ .smallcard2{
+    /* border:3px solid green; */
+    padding: 3rem;
+   
+ }
+ .smallcard2 img{
+    border-radius: 50%;
+    margin-top: 2rem;
+    padding: 1rem;
+ }
+ .smallcard2 .col h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(40, 40, 40) !important;
+    /* border: 3px solid red; */
+
+ }
+ .smallcard2 .smallcard3{
+    /* border: 3px solid green; */
+    padding: 5px;
+ }
+ .smallcard2 p{
+    font-weight: 300;
+    font-size: 15px;
+ }
+/* **************************************************fifthpage********************************************************** */
+.fifthmain{
+    background: #F8F6F6;
+}
+/* .fifthpage{
+    border: 2px solid red;
+} */
+.fifthpagecard{
+    /* border: 3px solid yellowgreen; */
+    padding: 1rem;
+    color: rgb(40, 40, 40);
+}
+.fifthpagecard h2{
+    font-weight: 600;
+    font-size: 17px;
+}
+.fifthpagecard p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.fifthpage  .active{
+    color: #D35700 !important;
+}
+.fifthpage  .changebtn .active{
+    border-bottom: 4px solid #D35700 !important;
+}
+
+.nav-link{
+    color:rgb(187, 183, 183); 
+    background-color: #F8F6F6;
+}
+#myTab li{
+    background: #F8F6F6;
+    padding: 0 15px 0 15px;
+}
+#myTab .nav-link:hover{
+    color:rgb(112, 110, 110);
+    
+}
+.firstbtn{
+    background-color: #ee1616;
+}
+.afterclicking{
+    color:#F16623;
+    border-bottom: 4px solid #F16623;
+}
+
+
+.claimactor{
+    padding: 3rem;
+    background: rgb(0,48,90);
+}
+.claimactorchild{
+     padding-left:9rem
+}
+.claimectorinner h3{
+    /* border: 2px solid red; */
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+}
+/* .listclaim{
+    border: 2px solid black;
+} */
+.claimectorinner p{
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(243, 239, 239);
+    padding-top: 8px;
+}
+.claimectorinner  li{
+    /* border: 2px solid rgb(9, 9, 9); */
+    /* border-radius: 50%; */
+    list-style-type: none;
+    padding: 0 20px 0 20px;
+    margin: 0 2rem 0 2rem;
+}
+.claimectorinner .listclaim li{
+    text-align: center;
+    color: rgb(243, 239, 239);
+    padding: 4px 10px 10px 10px;
+    margin: 0 10px 0 10px;
+    border: 2px solid rgb(243, 239, 239);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.innersmallbox{
+    /* border: 3px solid black; */
+    margin-top: 1rem;
+}
+.innersmallbox li{
+    background-color:#004A80;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 30px;
+    padding: 6px;
+    text-align: center;
+}
+
+.innersmallbox span{
+    font-weight: 300;
+    font-size: 14px;
+    color:#729BB9;
+    margin-right: 0.6rem;
+
+}
+.claimectorinner button{
+    height: 3rem;
+    width: 9rem;
+    border: 1px solid #EC6608;
+    background-color:#EC6608
+}
+.fontawesomeiconpagefive{
+    color: white;
+}
+
+/* ***************************************************************sixthpage************************************************ */
+.sixpageone{
+    border: 3px oslid red;
+}
+.sixpageone .sixpagetwo{
+    text-align: center;
+    padding-top: 3rem;
+}
+.sixpageone .sixpagetwo h2{
+    font-weight: 700;
+    font-size: 35px;
+    padding: 0.3rem;
+}
+.sixpageone .sixpagetwo p{
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0.3rem;
+}
+
+/* ************************************seventhPage*****************************************************************0 */
+
+.seventhPage{
+    /* border: 2px solid red; */
+    padding:3rem 2rem 2rem 2rem;
+}
+.seventhPage h2{
+    font-weight: 700;
+    font-size: 35px;
+    padding-left: 3rem;
+    color: rgb(40, 40, 40);
+}
+.seventhPage ul li{
+    font-weight: 300;
+    list-style-type: none;
+    font-size: 16px;
+    color: rgb(40, 40, 40);
+}
+.sevenPage{
+    /* border: 2px solid red; */
+    background-color: #F8F6F6;
+}
+.sevenpagealldata{
+    /* border: 2px solid green; */
+    margin-top: 1rem;
+    padding: 0.4rem;
+}
+.sevenPage .changestabs button{
+    border: none !important;
+    padding-right: 3rem;
+}
+.sevenPage .changestabs .active{
+    color: #D35700;
+    border-bottom: 4px solid #D35700 !important;
+    background-color: #F8F6F6 !important
+}
+.sevenPage .changestabs{
+    border: none !important;
+    padding: 1rem !important;
+     background-color: #F8F6F6 !important
+}
+
+
+.sevenpagealldata h2{
+    font-weight: 700;
+    font-size: 17px;
+}
+.sevenpagealldata p{
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.tableborder{
+    border: 1px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+.differencetabledata thead tr th{
+    padding: 17px;
+}
+.differencetabledata tbody tr td{
+    padding: 17px;
+}
+
+
+/* ********************************************************smallcardthree********************************** */
+
+/* .smallcardthree{
+     border: 2px solid red; 
+} */
+.smallcardthree h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.smallcardthree span{
+    font-weight: 800;
+    font-size: 30px;
+    color:#EC6608; 
+    
+}
+.smallcardthree p{
+    font-weight: 300;
+    font-size: 16px;
+}
+/* *********************************************************eightpage*************************************************** */
+.eightpage{
+    margin-top: 2rem;
+    
+}
+
+.eightpage li{
+    list-style-type: none;
+}
+.eightpage h1{
+   font-weight: 700;
+   font-size: 35px;
+
+}
+.eightpage p{
+       font-weight: 300;
+       font-size: 17px;
+       padding-left: 1.2rem;
+}
+.eightpage .head{
+    font-weight: 200;
+    font-size: 25px;
+    padding-left: 1.2rem;
+}
+
+/* ****************************************OnesideimagewithcorrectTick*********************************************** */
+
+/* .onesideimagewithcorrecttick{
+    border: 2px solid red;
+} */
+.onesideimagewithcorrecttick p{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 1rem;
+}
+.onesideimagewithcorrecttick h1,.smallpara h1{
+    font-weight: 700;
+   font-size: 35px;
+   padding:1rem
+}
+.onesideimagewithcorrecttick span{
+    padding: 1rem;
+}
+.onesideimagewithcorrecttick img{
+    margin-top: 8rem;
+}
+
+.smallpara p{
+    line-height: 30px;
+}
+.smallcardthree .col-md-4 p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+/* *********************************************ninepage******************************* */
+.ninepagediv h2{
+    text-align: center;
+    margin-top: 8rem;
+    padding: 1rem;
+    font-size: 35px;
+    font-weight: 700;
+}
+.cardscomponent h5{
+    /* border: 2px solid green; */
+    font-weight: 600;
+    font-size: 18px;
+}
+.cardscomponent p{
+    /* border: 2px solid green; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: -3.8rem;
+}
+.cardscomponent:hover{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.177);
+}
+
+.divforbtn .btn{
+    color:#EC6608 ;
+    border: 1px solid #EC6608;
+}
+.divforbtn .btn:hover{
+    background-color: #EC6608;
+    color: white;
+}
+/* *******************************tenthpage*********************************************************************** */
+.tablastmain{
+    background-color: #F8F6F6;
+}
+/* .tabslast{
+    /* border: 2px solid red; */
+
+.tabslast h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.smalltabslast .activecase .active{
+    color:#EC6608 !important;
+    border-bottom: 4px solid #D35700 !important;
+}
+
+.tabslast .smalltabslast{
+    /* border: 2px solid rgb(34, 255, 0); */
+    margin: 1rem 4rem 1rem 4rem;
+    padding: 1rem 6rem;
+}
+.tabslast .smalltabslast .MDBtabs h6{
+    font-weight: 600;
+    font-size: 17px;
+    padding-left: 0 ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* border: 2px solid red; */
+}
+.tabslast .smalltabslast .MDBtabs p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+}
+.tabslast li{
+    list-style-type: none;
+} 
+.rightarrowlist{
+    display: flex;
+}
+
+/* .tab{
+    color: #D35700;
+    border-bottom: 2px solid #D35700;
+} */
+
+.mdbbtn{
+    padding: 1rem 4rem 1rem 4rem;
+    background: #F8F6F6 !important;
+    border: none !important;
+}
+
+
+/* **************************************tenthPage.jsx************************************ */
+.manybtnsmain{
+    background: #F8F6F6;
+}
+
+.manybtns h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.manysmallbtns:hover{
+    background: #FDEBEB;
+}
+.manysmallbtns{
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer{
+    background: #ECE9E9;
+}
+.footer input{
+    border:none;
+    background: #ECE9E9;
+    width:'12rem'
+}
+.footer button{
+    border:none;
+    background: #ECE9E9;
+}
+.form-control{
+    width: 500px;
+    
+}
+.footerdropdown{
+    height:160px;
+    overflow-y:scroll
+}
+/* *****************************************twelvePage******************************************************* */
+.maincoupledata{
+    background: #F8F6F6;
+}
+.coupleofdata button{
+    background: #F8F6F6 !important;
+    border: none !important;
+    
+}
+.maincoupledata .id{
+    color: #D35700;
+    font-size: 45px;
+    font-weight: 400;
+}
+.coupleofdatatwo button{
+    background: white !important;
+    border: none !important;
+}
+
+/* ******************************************************healthadvaneade********************************** */
+ 
+.bgimg{
+    background-image: url('D:\reacttut\icicilombard\public\Images\HealthInsurence\svg1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+
+}
+.healthadv .firstdiv h2{
+     font-weight: 900;
+     font-size: 48px;
+}
+.healthadv .firstdivp{
+    font-weight: 600;
+    font-size: 36px;
+}
+.seconddiv div{
+    border: rgb(13, 14, 13) 2px solid;
+}
+
+.healthadv .lastbtn{
+    background-color: #EC6608 !important;
+    color: white !important;
+
+}
+/* **************************************************************coronapolicy************************************************************
+ */
+
+ .coronapolicy{
+    background-color: #00305B!important;
+    color: white;
+ }
+ .coronapolicy li{
+    list-style-type: none;
+ }
+ .coronapolicy .coronadivfirst{
+    padding-left: 7rem!important;;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *****************************mediafor all projects ************************ */
+ @media (max-width:767.98px) {
+    .container{
+        margin: 1rem;
+        padding: 0;
+        max-width: 100% !important;
+    }
+    
+ }
+ 
+
+

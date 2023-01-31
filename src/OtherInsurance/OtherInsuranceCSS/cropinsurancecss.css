@@ -1,0 +1,88 @@
+.PMFBY{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:white;
+    background-color: rgba(107, 31, 31, 0.774);
+    padding-top: 5px;
+}
+
+.imgdowntext{
+    
+    /* background-color: antiquewhite; */
+    padding: 15px;
+    margin-left: 7%;
+    font-size: 18px;
+    font-weight:400;
+    /* font-family: arial; */
+}
+
+.clickhere{
+    font-weight: 500;
+    color: rgb(10,61,109);
+}   
+.clickhere:hover{
+    color: rgb(10,61,109);
+}
+
+.icicicrop{
+    margin-left: 8%;
+    margin-top: 1%;
+    /* text-decoration: none; */
+ }
+
+ .bottomtxtcrop{
+    margin-top: 60%;
+ }
+
+ .bottomnavlinkcrop{
+    text-decoration: none;
+    color:darkred;
+ }
+ .bottomnavlinkcrop:hover{
+    color:darkred;
+ }
+
+ .spacebetween{
+    margin-left: 15px;
+    font-size: 16px;
+    color: chocolate;
+ }
+
+ .spacebetween:hover{
+    color: chocolate;
+ }
+
+ .spacebetween1{
+    margin-left: 71rem;
+    color:chocolate;
+ }
+
+ .spacebetween1:hover{
+    color: chocolate;
+ }
+ .marketingawareness{
+    margin-left: 66rem;
+    color: rgb(93, 91, 91);
+    font-size: 17px;
+ }
+ .spacebetween2{
+    margin-left: 48.55rem;
+    font-size: 16px;
+    color:chocolate;
+ }
+ .spacebetween3{
+    color:chocolate;
+ }
+ .spacebetween3:hover{
+    color:chocolate;
+ }
+ .businessstatistics{
+    margin-left: 60rem;
+    color: rgb(93, 91, 91);
+    font-size: 17px;
+ }
+ .businessstatistics:hover{
+    color: rgb(93, 91, 91);
+   
+ }

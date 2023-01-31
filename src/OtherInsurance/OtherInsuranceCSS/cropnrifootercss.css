@@ -1,0 +1,19 @@
+.nrifooter{
+    background-color: rgb(238, 231, 231);
+}
+
+.bluecolor{
+    color:rgb(5, 5, 102);
+    font-weight: 700;
+}
+.linkeffect{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    /* word-spacing: 2px; */
+}
+.linkeffect:hover{
+    text-decoration-line:underline;
+    color: black;
+    
+}
