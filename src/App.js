@@ -13,7 +13,7 @@ import CropInsurance from './OtherInsurance/CropInsurance';
 import CyberInsurance from './OtherInsurance/CyberInsurance';
 import NRIInsurance from './OtherInsurance/NRIInsurance';
 import NavbarOtherInsurance from './OtherInsurance/NavbarOtherInsurance';
-import HealthInsurance from './HealthInsurance/component1/HealthInsurance';
+
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         {/* <Navbar /> */}
         {/* <NavbarOtherInsurance/> */}
         <Routes>
-          {/* <Route path='/' element={<Home />}></Route> */}
+          {/* Datta ghadage */}
           <Route path='/' element={<Home />}></Route>
           <Route path='/Workmeninsurence' element={<WorkmenInsurence/>}></Route>
           <Route path='/Group_helth_insurence' element={<Ghelthinsurence/>}></Route>
@@ -33,7 +33,8 @@ function App() {
           <Route exact path='/nriinsurance' element={<NRIInsurance/>}></Route>
           <Route exact path='/cyberinsurance' element={<CyberInsurance/>}></Route>
           {/* Sayli */}
-          <Route path='/2' element={<HealthInsurance/>}></Route>
+      
+      
         </Routes>
       </BrowserRouter>
     </div>
